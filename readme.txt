@@ -4,8 +4,9 @@ efficient range search (finding all points in the symbol table that are
 contained in a query rectangle) and nearest-neighbor search (finding a closest
 point in the symbol-table to a query point)
 
+Further descriptions 
 /* *****************************************************************************
- *  Describe the Node data type you used to implement the
+ *  Describing the Node data type used to implement the
  *  2d-tree data structure.
  **************************************************************************** */
 The Node data type has the following instance variables - the point, the value
@@ -14,7 +15,7 @@ Rect HV which represents the rectangle area associated with the given node in a
 tree.
 
 /* *****************************************************************************
- *  Describe your method for range search in a kd-tree.
+ *  Describing method for range search in a kd-tree.
  **************************************************************************** */
 I used recursion for range search. That is, I started at the root, and then
 searched recursively for points in the left and right subtrees, respectively. I
