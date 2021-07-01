@@ -4,6 +4,8 @@ efficient range search (finding all points in the symbol table that are
 contained in a query rectangle) and nearest-neighbor search (finding a closest
 point in the symbol-table to a query point)
 
+algs4.jar is the library provided to me to do this project
+
 Further descriptions 
 /* *****************************************************************************
  *  Describing the Node data type used to implement the
